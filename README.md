@@ -1,6 +1,6 @@
 # Lazarus-Tactic
 
-* program based on APT38 North Korea-backed hackers tactic that used in targeting security researchers using a malicious Visual Studio project file (vcxproj) to steal their 0days.
+* program based on APT38 North Korea-backed hackers tactic that used in targeting security researchers using a malicious Visual Studio project file (vcxproj) to steal their 0days , the attackers use social engineering to trick the security researchers into collaborating on research via a Microsoft Visual Studio Project, The project contains an infected vcxproj file, and when the researcher attempts to build the project, the malicious code will also execute.
 
 * Once the program runs, it will infect all of your Visual Studio projects
 
