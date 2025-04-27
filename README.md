@@ -58,6 +58,23 @@ A numeric value: 2907
 
     ![Screenshot 2023-02-25 180210](https://user-images.githubusercontent.com/60795188/221369862-ef3bd034-66ac-46e1-b2ac-d349a6cf6aa8.png)
 
+# Attack Scenario: Developer Environment Supply Chain Attack
+
+An attacker sends a malicious Visual Studio project to a developer, the developer opens the project, appearing to be a legitimate code sample, Upon first build, the program infects ALL Visual Studio projects on the developer's system
+
+The infected developer continues normal work, modifying and sharing projects with colleagues and each shared project carries the infection to new developer machines and when colleagues open and build these projects, their environments become infected the infection continues to spread across the development team
+
+# Impact
+
+In a successful campaign, this will create a catastrophic compromise of the entire development ecosystem .
+
+![image](https://github.com/user-attachments/assets/f3702213-fdd2-4959-92dc-7110c0e59481)
+
 # DEMO
    https://user-images.githubusercontent.com/60795188/221441360-f727834f-3759-444c-a8bb-2a8562a433c8.mp4
+
+# Credits
+
+* [Joel Eriksson](https://x.com/OwariDa)
+*  [Google Threat Analysis Group](https://blog.google/threat-analysis-group/new-campaign-targeting-security-researchers/) 
 
